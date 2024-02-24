@@ -29,10 +29,10 @@ alert(Number(a) + Number(b));
 let monthNumber = 12;
 switch (monthNumber) {
     case 12 :
-        case 1 :
-            case 2 :
-                console.log('Зима'); 
-                        break;
+    case 1 :
+    case 2 :
+    console.log('Зима'); 
+    break;
     case 3 :
         case : 4
             case : 5

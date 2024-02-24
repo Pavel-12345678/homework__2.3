@@ -199,12 +199,23 @@ a {
     width: 343px;
   }
   .footer_text {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .footer_heading {
     text-align: center;
     width: auto;
     font-size: 32px;
+  }
+  .footer_p {
+    font-size: 14px;
+  }
+  .item__1 {
+    width: 343px;
+  }
+  .footer_content__1 {
+    padding-right: inherit;
+    justify-content: center;
+    padding-right: 0px;
   }
 }/*# sourceMappingURL=style__2.3.css.map */
