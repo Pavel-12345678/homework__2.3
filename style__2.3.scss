@@ -10,6 +10,10 @@
   .body {
     font-family: "Montserrat", sans-serif;
   }
+  .center{
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+  }
 .top {
   background-image: url(img__2.3/Rectangle_1.jpg);
   background-repeat: no-repeat;
@@ -77,12 +81,27 @@ padding-bottom: 22px;
 }
 .item_1 {
 border-radius: 16px;
+transition: all 0.3s ease;
+&:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 5px #ccc; 
+}
 }
 .item_2 {
 border-radius: 16px;
+transition: all 0.3s ease;
+&:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 5px #ccc; 
+}
 }
 .item_3 {
 border-radius: 16px;
+transition: all 0.3s ease;
+&:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 5px #ccc; 
+}
 }  
 
 .footer_content__1 {
@@ -136,7 +155,7 @@ padding-bottom: 32px;
 }
 
 .footer_input {
-    height: 48px;
+  height: 48px;
   border: 1px solid #FFF;
   border-radius: 20px;
   background-color:#EB443F;
@@ -145,16 +164,9 @@ padding-bottom: 32px;
   font-weight: 400;
   word-wrap: break-word;
   width: 234.06px;
-  
-    &::placeholder {
-    color: #FFFFFF;
-    padding-left: 80px;
-    }
+  &::placeholder {
+  color: #FFFFFF;
+  padding-left: 80px;
+  }
 }
-.item__1 {
-    
-    
-
-}
-
 @import 'mobile__2.3'
