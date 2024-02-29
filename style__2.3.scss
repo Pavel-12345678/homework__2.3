@@ -10,6 +10,10 @@
   .body {
     font-family: "Montserrat", sans-serif;
   }
+  .center{
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+  }
 .top {
   background-image: url(img__2.3/Rectangle_1.jpg);
   background-repeat: no-repeat;
@@ -27,7 +31,7 @@ text-align: left;
 color: #FFFFFF;
 width: 788.78px;
 padding-top: 77px;
-padding-left: 120px;
+padding-left: 16px;
 }
 .main {
 font-family: Montserrat;
@@ -38,7 +42,7 @@ letter-spacing: 0px;
 text-align: left;
 color: #FFFFFF;
 width: 588px;
-padding-left: 120px;
+padding-left: 16px;
 padding-top: 12px;
 padding-bottom: 22px;
 }
@@ -52,7 +56,13 @@ padding-bottom: 22px;
   font-weight: 400;
   word-wrap: break-word;
   width: 234.06px;
-  margin-left: 120px;
+  margin-left: 16px;
+  &:hover {
+    background-color:rgb(15, 1, 9);
+    color: #FFF;
+    transform: scale(1.05);
+    box-shadow: 0 0 5px #ccc; 
+  }
     &::placeholder {
     color: #FFFFFF;
     padding-left: 80px;
@@ -77,12 +87,27 @@ padding-bottom: 22px;
 }
 .item_1 {
 border-radius: 16px;
+transition: all 0.3s ease;
+&:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 5px #ccc; 
+}
 }
 .item_2 {
 border-radius: 16px;
+transition: all 0.3s ease;
+&:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 5px #ccc; 
+}
 }
 .item_3 {
 border-radius: 16px;
+transition: all 0.3s ease;
+&:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 5px #ccc; 
+}
 }  
 
 .footer_content__1 {
@@ -96,10 +121,10 @@ border-radius: 16px;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding-right: 120px;
-  }
+    }
+
 .footer_text {
-    display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -109,7 +134,7 @@ border-radius: 16px;
   width: 584px;
   align-items: flex-start;
   align-content: center;
-  padding-left: 120px;
+  padding-left: 16px;
 }
 .footer_heading {
 font-family: Montserrat;
@@ -136,7 +161,7 @@ padding-bottom: 32px;
 }
 
 .footer_input {
-    height: 48px;
+  height: 48px;
   border: 1px solid #FFF;
   border-radius: 20px;
   background-color:#EB443F;
@@ -145,16 +170,9 @@ padding-bottom: 32px;
   font-weight: 400;
   word-wrap: break-word;
   width: 234.06px;
-  
-    &::placeholder {
-    color: #FFFFFF;
-    padding-left: 80px;
-    }
+  &::placeholder {
+  color: #FFFFFF;
+  padding-left: 80px;
+  }
 }
-.item__1 {
-    
-    
-
-}
-
 @import 'mobile__2.3'

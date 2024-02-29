@@ -3,15 +3,26 @@
         padding-left: 16px;
         padding-right: 16px;
     };
+    .top {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 735px;
+    }
     .heading {
         text-align: center;
         width: auto;
         font-size: 32px;
+        padding-left: 0px;
+        line-height: 39.01px;
         };
     .main {
         font-size: 14px;
         text-align: center;
         width: auto;
+        padding-left: 0px;
         &_input {
             margin-left: 60px;
             border-radius: 30px;
@@ -19,7 +30,10 @@
     };
     .footer_content {
         height: 1221px;
-
+    };
+    .footer_aitem {
+        column-gap: 0px;
+        max-width: min-content;
     };
     .item_1 {
         width: 343px;
